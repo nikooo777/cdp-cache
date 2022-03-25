@@ -1,8 +1,8 @@
-module github.com/sillygod/cdp-cache
+module github.com/nikooo777/cdp-cache
 
 go 1.17
 
-replace github.com/sillygod/cdp-cache => github.com/nikooo777/cdp-cache v0.4.7-0.20220325215639-77ca4b1af14d
+replace github.com/sillygod/cdp-cache => github.com/nikooo777/cdp-cache fix
 
 require (
 	github.com/caddyserver/caddy/v2 v2.4.6
@@ -14,6 +14,7 @@ require (
 	github.com/mailgun/groupcache/v2 v2.2.1
 	github.com/ory/dockertest/v3 v3.6.5
 	github.com/pquerna/cachecontrol v0.1.0
+	github.com/sillygod/cdp-cache v0.0.0-00010101000000-000000000000
 	github.com/stretchr/testify v1.7.0
 	go.uber.org/zap v1.19.0
 )
