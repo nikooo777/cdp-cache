@@ -2,6 +2,8 @@ module github.com/sillygod/cdp-cache
 
 go 1.17
 
+replace github.com/sillygod/cdp-cache => github.com/nikooo777/cdp-cache v0.4.7-0.20220325203745-5a396126211f
+
 require (
 	github.com/caddyserver/caddy/v2 v2.4.6
 	github.com/caddyserver/certmagic v0.15.2
